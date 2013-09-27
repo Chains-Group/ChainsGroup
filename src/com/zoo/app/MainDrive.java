@@ -1,9 +1,14 @@
 package com.zoo.app;
+import com.zoo.PetApp.Pet;
+import com.zoo.Utils.*;
+
 import java.util.*;
 class MainDrive {
 	public static void main(String [] args) {
-	    
-	    go();
+	    MainDrive md = new MainDrive();
+
+	    md.polimorfitObjectsRefereces();
+	    //go();
 
 
 	}
@@ -30,5 +35,13 @@ class MainDrive {
 
        System.out.println("Funcionono");
 
+
+	}
+	public void polimorfitObjectsRefereces() {
+	    
+
+
+	    StackRef sr = new StackRef();
+	    sr.foot();
 	}
 }

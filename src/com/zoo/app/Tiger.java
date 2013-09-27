@@ -1,7 +1,7 @@
 package com.zoo.app;
 
 
-class Tiger extends Felino {
+public class Tiger extends Felino {
     public void makeNoise(){
       System.out.println("miauusssffffgrrrrr !!! ");
    }
