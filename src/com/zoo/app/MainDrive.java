@@ -5,9 +5,13 @@ import com.zoo.Utils.*;
 import java.util.*;
 class MainDrive {
 	public static void main(String [] args) {
-	    MainDrive md = new MainDrive();
+	   Hippo  h= new Hippo("Pinihippo");
+	   System.out.println(h.getName());
 
-	    md.polimorfitObjectsRefereces();
+
+	   // MainDrive md = new MainDrive();
+
+	    //md.polimorfitObjectsRefereces();
 	    //go();
 
 

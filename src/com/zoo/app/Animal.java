@@ -2,12 +2,22 @@ package com.zoo.app;
 
 public abstract class Animal {
 
+   private String name;
 
-   public static void main(String [] args){
-   	   System.out.println("Works !!! ");
-   	   Lion l = new Lion();
-   	   l.makeNoise();
+   public String getName(){
+      return name;
    }
+   public Animal(String theName){
+      name = theName;
+   }
+   public Animal(){
+      
+   }
+   //public static void main(String [] args){
+   //	   System.out.println("Works !!! ");
+   // 	   Lion l = new Lion();
+   //	   l.makeNoise();
+  //}
 
    // metodos abstractos a implementar en classes concretas que hereden de animal
    public abstract void makeNoise();
